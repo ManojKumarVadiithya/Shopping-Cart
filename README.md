@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🛒 Shopping Cart Application
 
 A simple and responsive shopping cart built using vanilla HTML, CSS, and JavaScript.
@@ -87,3 +88,6 @@ Clean and modular code structure
 Free to use for learning and personal projects.
 
 Happy Coding! 🛍️🚀
+=======
+# Shopping-Cart
+>>>>>>> 23512cb6ddd7041fff4101c36c21c75bda096783
