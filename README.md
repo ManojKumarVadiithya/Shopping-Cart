@@ -39,6 +39,7 @@ shopping-cart/
 ├── styles.css
 ├── script.js
 ├── images/
+├── samples/
 └── README.md
 ```
 # ▶️ Run the Project
