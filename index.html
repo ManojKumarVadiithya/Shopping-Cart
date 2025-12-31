@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-section">
+                <img class="logo-icon" src="/images/logo.jpeg" alt="My Shop Logo">
+                <h1 class="logo">My Shop</h1>
+            </div>
+            <button class="cart-toggle-btn" id="cartToggleBtn">
+                🛒 <span class="cart-badge" id="cartItemCount">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Products  -->
+    <main class="main-content" id="mainContent">
+        <section class="products-grid" id="productsList">
+            <!-- Products rendered by the js -->
+        </section>
+    </main>
+
+    <!-- Cart  -->
+    <aside class="cart-sidebar" id="cartSidebar">
+        <button class="cart-close-btn" id="cartCloseBtn">✖</button>
+        <h2 class="cart-title">Your Cart</h2>
+
+        <div class="cart-items-container" id="cartItemsList">
+            <!-- Cart items rendered by js -->
+        </div>
+
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span class="summary-value" id="subtotalPrice">$0</span>
+            </div>
+            <div class="summary-row">
+                <span>Shipping</span>
+                <span class="summary-value" id="shippingPrice">$0</span>
+            </div>
+            <div class="summary-row summary-total">
+                <span>Total</span>
+                <span class="summary-value" id="totalPrice">$0</span>
+            </div>
+        </div>
+
+        <button class="btn-checkout">Checkout</button>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</html>
