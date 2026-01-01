@@ -59,6 +59,7 @@ index.html
 Edit in script.js:
 ```
 - **const SHIPPING_COST = 50;**
+- **You can update shipping cost based on your condition and criteria.**
 - **Add Products**
 - **Update the products array in script.js.**
 
@@ -72,8 +73,5 @@ Edit in script.js:
 - **CSS Grid & Flexbox**
 
 - **Clean and modular code structure**
-
-# 📝 License
-- **Free to use for learning and personal projects.**
 
 Happy Coding! 🛍️🚀
